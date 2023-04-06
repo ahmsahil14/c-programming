@@ -1,3 +1,4 @@
+//nested if else
 #include<stdio.h>
 int main()
 {
@@ -5,7 +6,16 @@ int main()
     scanf("%d",&taka);
     if(taka>=100)
     {
-        printf("Askey biri kaboo must");
+        printf("Askey biri kaboo must\n");
+        if(taka==110)
+        {
+            printf("With tea");
+
+        }
+        else
+        {
+            printf("Only biri");
+        }
     }
     else if(taka<50)
     {
